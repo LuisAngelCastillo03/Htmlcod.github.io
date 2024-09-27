@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Red_Bull_Racing con Imagen</title>
+</head>
+<body>
+    <h1 style="color: #af4c54;">Formulario de Red_Bull_Racing</h1>
+    
+    <form action="resultados_redbull.html" method="get" enctype="multipart/form-data">
+        <label for="nombre" style="font-family: 'serif'; font-size: 20px;">Nombre del piloto:</label>
+        <input type="text" id="nombre" name="nombre" > <br> <br >
+
+        <label for="Coche" style="font-family: 'serif'; font-size: 20px;">Coche:</label>
+        <select id="Coche" name="Coche"> </select>
+            <option value="MAX">MAX</option>
+            <option value="CHECO">CHECO</option>
+        </select>
+
+        <label for="imagen">Subir imagen:</label>
+        <input type="file" id="imagen" name="imagen" > <br> <br>
+
+        <input type="submit" value="Enviar" >
+    </form>
+</body>
+</html>
